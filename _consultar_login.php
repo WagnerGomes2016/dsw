@@ -1,16 +1,13 @@
 <?php require 'inc/conexao.php'; ?>
-
-
 <?php
+  // novo comnetrio
 
   $login = isset($_POST["user"]) ? $_POST["user"] : "";
   $senha = isset($_POST["senha"]) ? $_POST["senha"] : "";
   
    $infoLogin = " * usuraio nao encotrado "; 
    $infoSenha = " * senha incorreta ";
-  
-  
-  
+ 
   try 
    {
         $buscaUser = $pdo->prepare("SELECT login, senha FROM cad_aluno WHERE login=? AND senha=? ");
@@ -19,10 +16,6 @@
         $buscaUser->bindParam(2, $senha, PDO::PARAM_STR);
 
         $buscaUser->execute();
-        
- 
-      
-       
             if(($buscaUser->rowCount() != 1))
             {
          
