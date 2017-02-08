@@ -1,0 +1,146 @@
+﻿*{margin: 0px; padding: 0px;}
+
+@media all and(min-width: 960px)
+{
+	
+	
+}
+
+	body
+	{
+		width: 960px;
+		margin: auto;
+	}
+}
+
+
+
+
+div
+{ 	
+	position: relative;
+	top: 100px;
+
+	width: 400px;
+	height:405px;
+	
+	/* border: 1px solid red; */
+	box-shadow: 12px 14px 8px grey;
+	
+}
+
+
+
+
+fieldset
+{
+	position: relative;
+	top: 120px;
+	margin: 40px;
+	
+	width: 200px;
+	font-family: tahoma;
+	font-weight: 100;
+	
+	
+	/* http://www.w3schools.com/css/css3_gradients.asp */
+   	background: -webkit-linear-gradient(#ccc, #fafafa, #999);/* For Safari 5.1 to 6.0 */
+   	background: -o-linear-gradient(#ccc, #fafafa, #999); 	/* For Opera 11.1 to 12.0 */
+   	background: -moz-linear-gradient(#ccc, #fafafa, #999); 	/* For Firefox 3.6 to 15 */
+   	background: linear-gradient(#ccc, #999, #999); 		/* Standard syntax */
+  
+   	top:5px;
+
+	border-top: 2px solid #fff;
+	border-left: 2px solid #fff;
+	border-right: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+
+}
+
+
+legend
+{
+	position: relative;
+	top: -2px;
+	width: 220px;
+	
+	margin: 0px 280px;
+	padding: 5px; 0px;
+	
+	font-size: 20px;
+	font-variant: ;
+	font-family: verdana;
+
+	text-align: center;
+	letter-spacing: 0.01em;
+	color: #aaa;
+	background: #fff;
+	border-bottom: 2px solid #fff;
+	
+	
+}
+
+
+table, tr, td
+{
+	position: relative;
+	width: 320px;
+	height: 40px;
+	font-size: 17px;
+    /*text-shadow: 0.00em  2px #777; */	
+	color: #333;
+	font-weight: 0;
+	margin: 0px 30px;
+	top: 10px;
+	left: 10px;
+	text-align: left;
+	padding: 5px 4px;
+}
+
+select{width: 220px; height: 27px; margin: 0px -38px;}
+
+input[type="text"]
+{
+	position: relative;
+	float: left;
+	left: -40px;
+	top: 0px;
+	width: 210px;
+	padding: 4px;
+	font-size: 14px; 
+}
+
+input[type="password"]
+{
+	
+	position: relative;
+	float: left;
+	left: -40px;
+	width: 210px;
+	padding: 4px;
+	font-size: 14px; 
+}
+
+input[type="button"]
+{
+	position: relative;
+	width: 90px;
+	margin: 0px px;
+	left: 93px;
+}
+
+
+input[type="submit"]
+{
+	position: relative;
+	width: 90px;
+	margin: 0px 0px;
+	left: 33px;
+}
+
+a
+{ 
+	position:relative; left: -20px;
+	text-decoration: none; font-size: 12px; color: #ccc;
+}

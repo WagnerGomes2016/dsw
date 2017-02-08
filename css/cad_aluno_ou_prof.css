@@ -1,0 +1,98 @@
+﻿/* CSS CADASTRO  */
+
+body{ zoom: 1.0; background:#ddd ;}
+
+fieldset   
+{
+	width: 600px; font-family: tahoma; font-size: 32px; color: #999;
+	height: 300px; margin: 45px 0px; border: none;
+	
+   /* http://www.w3schools.com/css/css3_gradients.asp */
+   background:  linear-gradient(#ccc, #231A1A, #666); /* For Firefox 3.6 to 15 */
+   background: -moz-linear-gradient(#ccc, #231A1A, #666); /* For Firefox 3.6 to 15 */
+   background: -webkit-linear-gradient(#ccc, #231A1A, #666); /* chrome */
+   background: -o-linear-gradient(#ccc, #231A1A, #666); /* opera 3.6 to 15 */
+}
+
+
+legend
+{
+	margin: 0px 0px;
+}
+
+ul#img
+{
+	list-style: none;
+	text-decoration: none;	
+}
+
+ul#img li
+{
+	display: inline;
+	padding: 0px 42px;
+	
+
+	
+}
+
+ul#img li a
+{
+	text-decoration: none;
+	
+
+}
+
+
+
+table,tr, td
+{
+	border: 0px solid red; 
+	border-spacing: 5px;
+	text-align: center; 
+	line-height: 12px;
+}
+	
+
+table,tr, td,  a
+{
+	margin: 15px 4px;
+	text-decoration: none;
+	color: #dddddd;
+	padding: 0px 15x;
+	letter-spacing: 0.01em;
+	font-family:  verdana;
+	font-size: 13px;
+	letter-spacing: 0.05em;
+}
+
+
+
+img
+{
+	width: 90px;
+	height: 90px;
+
+}
+
+img#logo
+{
+	margin: 20px 0px;
+	width: 400px; height: 100px;
+}
+
+
+h6
+{	
+	float: left; position: relative;
+	display: block;
+	width: 640px; height: 20px;
+	margin: 5px -20px;
+	
+	background: #737673;
+	font-family: tahoma;
+	font-size: 13px;
+	font-variant: 900;
+	font-weight: 100;
+	letter-spacing: 0.05em;
+	color: #fff;
+}

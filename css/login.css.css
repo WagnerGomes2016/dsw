@@ -1,0 +1,342 @@
+﻿/* CSS LOGIN
+	http://erikasarti.net/html/acentuacao-caracteres-especiais/
+
+ */ 
+
+body{ background: #f1f1f1;}
+
+
+
+@media all and (min-width: 960px)
+{
+	body
+	{	
+		width: 500px;
+		margin: auto;
+	}
+}
+
+header {position: relative; top: 50px;}
+
+img
+{
+	float: left;
+	position: relative;
+	top: 30px;
+	width: 570px;
+	height: 170px;
+	
+}
+
+form 
+{
+	position: relative;
+	top: 68px;
+	left: 20px;
+	
+}
+
+fieldset
+{
+	position: relative;
+	float: left;
+	
+	left: -15px;
+	width: 560px; height: 300px;
+	font-family: tahoma; font-size: 32px; color: #999;
+	margin: 40px 0px;
+	border-radius: 10px;
+	
+	/* http://www.w3schools.com/css/css3_gradients.asp */
+
+   	background: webkit-linear-gradient(#457738, #fafafa, #666);/* For Safari 5.1 to 6.0 */
+   	background: -o-linear-gradient(#ccc, #fafafa, #666); 	/* For Opera 11.1 to 12.0 */
+   	background: -moz-linear-gradient(#457738, #fafafa, #666); 	/* For Firefox 3.6 to 15 */
+   	background: linear-gradient(#457738, #999, #a8cf41); 		/* Standard syntax */
+  
+   	top: -75px;
+	
+}
+
+ul { position: relative; top: 50px; left: 50px;}
+
+li 
+{
+	float: left;
+	list-style: none;
+	margin: 5px 0px;
+}
+
+
+/* casdastrar */
+ input[type="button"]
+{
+	
+	position: absolute;
+	float: left;
+	margin: -90px 180px;
+	left: 195px;
+	width: 130px;
+	height: 35px;
+	
+	font-size: 13px; 
+
+    	text-indent: ;
+	padding: 3px;
+	color: #ddd;
+	
+    	
+
+	background: -webkit-linear-gradient(#457738,  #666);	/* For Safari 5.1 to 6.0 */
+   	background: -o-linear-gradient( #fafafa, #666); 		/* For Opera 11.1 to 12.0 */
+   	background: -moz-linear-gradient(#457738,  #666); 	/* For Firefox 3.6 to 15 */
+   	background: linear-gradient(#457738, #a8cf41); 		/* Standard syntax */
+
+	border-radius: 5px;
+    	
+
+	border-top: 2px solid rgba(0,255,0, 0.1);
+	border-left: 2px solid rgba(0,255,0, 0.1);
+	border-right: 2px solid rgba(0,255,0, 0.1);
+	border-bottom: 2px solid rgba(0,255,0, 0.1);
+
+	cursor: pointer;
+}
+
+
+ input[type="button"]:hover
+{
+
+	color: #FFF;
+	border: 2px solid #888;
+
+	background: -webkit-linear-gradient(#457738,  #666);	/* For Safari 5.1 to 6.0 */
+   	background: -o-linear-gradient( #457738, #666); 		/* For Opera 11.1 to 12.0 */
+   	background: -moz-linear-gradient(#457738,  #666); 	/* For Firefox 3.6 to 15 */
+   	background: linear-gradient(#457738, #a8cf41); 		/* Standard syntax */
+
+	border-top: 2px solid rgba(10,155,155, 0.8);
+	border-left: 2px solid rgba(10,155,155, 0.8);
+	border-right: 2px solid rgba(10,155,155, 0.8);
+	border-bottom: 2px solid rgba(10,155,155, 0.8);
+}
+
+
+ul li:hover  ul#cad {display: ;}
+
+
+
+ul#cad
+{ 
+	position: absolute;
+	float: left;
+
+	width: 250px;
+	height: 80px;
+	
+	background: #222;
+	display:none ;
+	top: -90px; left: 75px;
+	margin: 0px 0px;
+	
+}
+
+ul#cad li 
+{ 
+	position: relative;
+	float: left;
+	
+	width: 100px;
+
+	top:0px; left: 0px;
+	margin: 0px 0px;
+	
+	
+	
+	
+	padding: 0px 5px;
+	
+	
+	background: red;
+	background-size: 
+	
+	color: white;
+}
+
+
+
+ul#cad li a
+{ 
+	position: relative;
+	float: left;
+
+	top: 0px; 
+	left: 5px;
+	margin: 0px 0px;
+	
+	
+	padding: 0px 20px;
+	
+	background: blue;
+	font-size: 14px;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+input[type="text"]
+{
+	position: relative;
+	float: left;
+	left: 40px;
+	top: 0px;
+	width: 220px;
+	padding: 15px 30px ;
+	font-size: 14px; 
+
+	background-image: url("../img/login/user.ico") ;
+   	background-repeat: no-repeat;
+   	background-size: 27px 27px;
+    	background-position:5% 50%;
+
+    	text-indent: 30px;
+	
+	
+	
+	border: 2px solid #ccc;
+    	border-radius: 10px;
+    	border-collapse: 1px;
+	
+
+}
+
+[placeholder] {color:#666;}	
+
+input[type="password"]
+{
+	
+	position: relative;
+	float: left;
+	left: 40px;
+	width: 220px;
+	padding: 15px 30px;
+	font-size: 14px; 
+
+	background-image: url("../img/login/Padlocks.ico") ;
+   	background-repeat: no-repeat;
+   	background-size: 27px 27px;
+    	background-position:5% 50%;
+
+    	text-indent: 30px;
+	
+	border: 2px solid #ccc;
+    	border-radius: 10px;
+    	border-collapse: 1px;
+}
+
+
+input[type="submit"]
+{
+	position: relative;
+	float: left;
+	
+	margin: 0px 0px;
+	top: 0px;
+	left: 40px;
+
+	width: 280px;
+	padding: 15px 30px ;
+
+	border-radius: 10px;
+	
+	
+
+	
+
+	border-top: 2px solid rgba(0,0,255, 0.3);
+	border-left: 2px solid rgba(0,0,255, 0.3);
+	border-right: 2px solid rgba(0,0,255, 0.3);
+	border-bottom: 2px solid rgba(0,0,255, 0.3);
+	 
+	
+	text-indent: -35px;
+	background-image: url("")
+	
+	
+}
+
+input[type="submit"]:hover
+{
+	position: relative;
+	float: left;
+	background:#3292EA;
+	color: white;
+
+	border-collapse: collapse;
+	border-top: 2px solid rgba(255,255,255, 0.5);
+	border-left: 2px solid rgba(255,255,255, 0.5);
+	border-right: 2px solid rgba(255,255,255, 0.5);
+	border-bottom: 2px solid rgba(255,255,255, 0.5);
+	
+	
+}
+
+
+
+ li.clique
+{ 
+	position: relative;
+	float: left;
+	font-size:19px;;
+
+	color: white;
+
+	margin: 0px 0px;
+	top: -70px;
+	left: -110px;		
+
+}
+
+a.clique
+{ 
+	position: relative;
+	float: left;
+	font-size:12px;;
+
+	margin: 0px 0px;
+	top: 5px;
+	left: 270px;
+
+	text-decoration: none;
+	font-size: 14px;;		
+
+}
+
+
+a#clique:hover
+{ 
+	color: #000;
+	font-variat: 900;
+}
+
+#info 
+{
+	text-align: center;
+	font-size: 16px;
+	color: #fffafa;
+	text-indent: -150px;
+	position: relative;
+	top: -10px;
+
+}
+
+
